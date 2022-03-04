@@ -1,9 +1,13 @@
 
-l=[1,2,1,4]
+l=[]
 n=[]
 res=[]
 x=[]
 v=[]
+a=int(input('enter:')
+for i in range(a):
+     x=int(input())
+     l.append(x)
 for i in l:
     n.append(l.count(i))
     if l.count(i)>1:
