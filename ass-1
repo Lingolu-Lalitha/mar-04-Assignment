@@ -1,0 +1,30 @@
+
+l=[1,2,1,4]
+n=[]
+res=[]
+x=[]
+v=[]
+for i in l:
+    n.append(l.count(i))
+    if l.count(i)>1:
+        res.append(i)
+for i in res:
+    if i not in x:
+        x.append(i)
+    else:
+        v.append(i)
+print(x)
+OUTPUT:
+[1]
+        
+
+        
+        
+        
+
+        
+    
+        
+        
+
+    
